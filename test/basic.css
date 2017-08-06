@@ -1,0 +1,17 @@
+test-inset {
+	inset: 1px;
+	inset: 2px 3px;
+	inset: 4px 5px 6px;
+	inset: 7px 8px 9px 10px;
+}
+
+test-inset-with-important {
+	inset: 1px !important;
+	inset: 2px 3px !important;
+	inset: 4px 5px 6px !important;
+	inset: 7px 8px 9px 10px !important;
+}
+
+test-inset-with-invalid {
+	inset: 1px 2px 3px 4px 5px;
+}

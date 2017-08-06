@@ -1,0 +1,40 @@
+test-inset {
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	left: 1px;
+	top: 2px;
+	right: 3px;
+	bottom: 2px;
+	left: 3px;
+	top: 4px;
+	right: 5px;
+	bottom: 6px;
+	left: 5px;
+	top: 7px;
+	right: 8px;
+	bottom: 9px;
+	left: 10px;
+}
+
+test-inset-with-important {
+	top: 1px !important;
+	right: 1px !important;
+	bottom: 1px !important;
+	left: 1px !important;
+	top: 2px !important;
+	right: 3px !important;
+	bottom: 2px !important;
+	left: 3px !important;
+	top: 4px !important;
+	right: 5px !important;
+	bottom: 6px !important;
+	left: 5px !important;
+	top: 7px !important;
+	right: 8px !important;
+	bottom: 9px !important;
+	left: 10px !important;
+}
+
+test-inset-with-invalid {
+}
