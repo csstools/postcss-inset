@@ -7,12 +7,16 @@
   "repository": "jonathantneal/postcss-inset",
   "homepage": "https://github.com/jonathantneal/postcss-inset#readme",
   "bugs": "https://github.com/jonathantneal/postcss-inset/issues",
-  "main": "index.js",
+  "main": "index.cjs.js",
+  "module": "index.es.mjs",
   "files": [
-    "index.js"
+    "index.js",
+    "index.cjs.js",
+    "index.es.mjs"
   ],
   "scripts": {
     "clean": "git clean -X -d -f",
+    "build": "rollup index.js --file index.cjs.js --format cjs --exports default && rollup index.js --file index.es.mjs --format es --exports default",
     "prepublish": "npm test",
     "test": "echo 'Running tests...'; npm run test:js && npm run test:tape",
     "test:js": "eslint *.js --cache --ignore-pattern .gitignore",
@@ -22,7 +26,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "postcss": "^6.0.1"
+    "postcss": "^8.2.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
