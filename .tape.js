@@ -1,7 +1,5 @@
 module.exports = {
-	'postcss-inset': {
-		'basic': {
-			message: 'supports basic usage'
-		}
+	'basic': {
+		message: 'supports basic usage'
 	}
 };

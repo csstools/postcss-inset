@@ -27,15 +27,7 @@
 Add [PostCSS Inset] to your build tool:
 
 ```bash
-npm install postcss-inset --save-dev
-```
-
-#### Node
-
-Use [PostCSS Inset] to process your CSS:
-
-```js
-require('postcss-inset').process(YOUR_CSS);
+npm install postcss postcss-inset --save-dev
 ```
 
 #### PostCSS

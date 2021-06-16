@@ -44,4 +44,4 @@ const creator = () => {
 
 creator.postcss = true
 
-export default creator
+module.exports = creator
