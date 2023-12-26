@@ -1,3 +1,5 @@
+<div align="center">⚠️ PostCSS Inset is deprecated in favor of <a href="https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-logical">postcss-logical</a>. ⚠️ </div>
+
 # PostCSS Inset [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
 
 [![NPM Version][npm-img]][npm-url]
